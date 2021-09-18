@@ -17,11 +17,11 @@ def generatePWD(nbrChar, nbrNum, nbrSymb):
 
     return ''.join(random.sample(password, len(password)))
 
-print('---------- Password Generator ----------\n\n')
+print('---------- Secret key Generator ----------\n\n')
 letterNbr = input('How many letters: ')
 digitNbr = input('How many digit: ')
 symbNbr = input('How many symbols: ')
-generatorNbr = input('How many password you want: ')
+generatorNbr = input('How many key you want: ')
 print('\nGenerating ...\n\n')
 
 for x in range(int(generatorNbr)):
