@@ -1,2 +1,2 @@
 # Secret key Generator
-Personnal use to generate secret production key
+Here is an exemple of git conflict
